@@ -1,0 +1,196 @@
+
+body{
+   background: url('background.jpg') no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: Arial;
+   color: white;
+   width: 80%;
+  min-width: 100px;
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+}
+
+h1{
+  text-align: center;
+  letter-spacing: 3px;
+  color: purple;
+  text-shadow: 3px 2px black;
+  font-family: 'Berkshire Swash', cursive
+
+}
+
+ul {
+  list-style: none;
+   margin: 0;
+   padding-top: 10px;
+
+   }
+ul li{
+  float:left;
+  display: inline;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 1px;
+  span: right;
+  border-radius: 25px;
+}
+
+ul li a {
+   text-decoration: none;
+   color: white;
+   display: block;
+   text-align: inline;
+   font-family: 'Berkshire Swash', cursive
+
+}
+
+a:hover {
+    background-color: green;
+    border-radius: 25px;
+  }
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+a.current {
+      background-color: white;
+      color: purple;
+      border-radius: 25px;
+  }
+
+footer {
+
+height: 58px;
+background-color: black;
+opacity: .8;
+width: 98%;
+margin: auto;
+bottom: 0;
+margin-top: 530px;
+text-align: center;
+border-radius: 6px;
+}
+
+.content {
+
+  padding: 10px 20px;
+  padding-bottom: 70%;
+  background-color: black;
+  height: 100px;
+  margin-top: 100px;
+  opacity: .8;
+  border-radius: 20px;
+  max-height: 300px;
+  min-height: 100px;
+
+  }
+  img{
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 220px;
+
+  }
+
+h2{
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+  letter-spacing: 2px;
+
+}
+
+.tumbs {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  margin-top: 0px;
+  margin-right: 6px;
+}
+
+#galler .gal {
+   width: 200px;
+   height: 200px;
+   margin-top: 30px;
+   margin-left: 40px;
+   margin-right: 20px;
+   display: inline;
+
+}
+.gal {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+}
+
+.gal:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+
+}
+
+form {
+  margin-top: 30px;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  padding: 1em;
+  border: 1px solid purple;
+  border-radius: 1em;
+  background-color: ;
+}
+form div + div {
+  margin-top: 1em;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+input, textarea {
+
+  font: 1em sans-serif;
+  border: 1px solid #999;
+
+}
+input:focus, textarea:focus {
+  border-color: #000;
+}
+.button {
+   float: right;
+}
+
+#con .cont {
+
+  display: inline;
+  margin: 10px;
+  margin-top: 300px;
+  margin-right: 120px;
+   height: 90px;
+   width: 90px;
+}
+dd{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'EB Garamond', serif;
+}
+
+article p{
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
